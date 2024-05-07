@@ -1,0 +1,10 @@
+.user {
+    padding: 1rem 1rem 2rem;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 300px;
+}
+.card__list {
+    display: flex;
+    flex-direction: column;
+}
