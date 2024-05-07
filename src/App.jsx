@@ -9,7 +9,7 @@ function App() {
   const [userEdit, setUserEdit] = useState()
   const [formIsClose, setFormIsClose] = useState(true)
 
-  const BASEURL = 'http://localhost:8080'
+  const BASEURL = 'https://ent2.onrender.com'
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useCrud(BASEURL)
 
   useEffect(() => {
