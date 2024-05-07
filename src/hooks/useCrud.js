@@ -37,7 +37,7 @@ const useCrud = (BASEURL) => {
   const updateApi = (put, id, data) => {
     const url = `${BASEURL}${put}${id}/`;
     axios
-      .patch(url, data)
+      .put(url, data)
       .then((res) => {
         console.log(res.data);
         setResponse(response.map((e) => (e.id === id ? res.data : e)));
